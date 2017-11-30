@@ -1,0 +1,29 @@
+#formulario {
+    width: 337px;
+    background-color: #FAFAFA;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border: 3px solid #345ba5;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#img1{
+    height: 550px;
+    width: 1050px;
+}
+#formulario {
+    border-left: 4px solid #E6E6E6;
+    border-right: 10px solid #E6E6E6;
+    border-bottom: 10px solid #E6E6E6;
+    height: 340px;
+    padding: 5px 0;
+}
+#lblScanner,#lblAddr{
+    color: red;
+}
+.txt{
+    text-align: center;
+    vertical-align: middle;
+}

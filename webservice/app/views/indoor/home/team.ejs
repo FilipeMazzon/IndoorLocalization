@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Localização Indoor</title>
+
+    <!-- bootstrap - link cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- carregando icones -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <!-- incluindo css -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href='css/bootstrap.css' rel='stylesheet'/>
+    <link href='css/rotating-card.css' rel='stylesheet'/>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
+
+</head>
+<body>
+<nav class="pushpin-demo-nav" data-target="blue">
+    <div class="nav-wrapper light-blue">
+        <button href="#" data-activates="slide-out" class="button-collapse waves-effect waves-light btn-large blue"><i
+                    class="material-icons">menu</i></button>
+    </div>
+</nav>
+<!-- slidenav -->
+<ul id="slide-out" class="side-nav">
+    <li>
+        <div class="user-view">
+            <div class="background">
+                <img src="images/background.jpg">
+            </div>
+            <a href="#!user"><img class="circle" src="images/perfil.jpg"></a>
+            <a href="#!name"><span class="white-text name">Carlos Ynoguti</span></a>
+            <a href="#!email"><span class="white-text email">ynoguti@inatel.br</span></a>
+        </div>
+    </li>
+    <li><a href="/">Main Home<i class="material-icons">home</i></a></li>
+    <li><a href="/indoor_home">Home<i class="material-icons">home</i></a></li>
+    <li><a href="/indoor_team">Team<i class="material-icons">group</i></a></li>
+    <li class="">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a class="collapsible-header">cadastro<i class="material-icons">add</i></a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="/indoor_cadastro_beacon">beacon</a></li>
+                        <li><a href="/indoor_cadastro_scanner">scanner</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+    <ul class="collapsible collapsible-accordion">
+        <li>
+            <a class="collapsible-header">Pesquisar<i class="material-icons">search</i></a>
+            <div class="collapsible-body">
+                <ul>
+                    <li><a href="/indoor_search_builden">Predios</a></li>
+                    <li><a href="/indoor_search_person">Pessoas</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <li>
+        <div class="divider"></div>
+    </li>
+
+    <li><a href="#!">Configurações<i class="material-icons">build</i></a></li>
+</ul>
+
+<div class="container">
+    <div class="row">
+        <h1 class="title">
+            This is our awesome team
+            <br>
+            <small>Present your team in an interesting way</small>
+        </h1>
+        <div class="col-sm-10 col-sm-offset-1">
+            <div class="col-md-4 col-sm-6">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/rotating_card_thumb.jpg"/>
+                            </div>
+                            <div class="user">
+                                <img class="img-circle" src="images/perfil.jpg"/>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Carlos Ynogguti</h3>
+                                    <p class="profession">Coordenador</p>
+                                    <p class="text-center"></p>
+                                </div>
+                                <div class="footer">
+                                    <i>hover here</i>
+                                </div>
+                            </div>
+
+                        </div> <!-- end front panel -->
+                        <div class="back">
+                            <div class="header">
+                                <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h4 class="text-center">Job Description</h4>
+                                    <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many
+                                                           others...</p>
+
+                                    <div class="stats-container">
+                                        <div class="stats">
+                                            <h4>235</h4>
+                                            <p>
+                                                Followers
+                                            </p>
+                                        </div>
+                                        <div class="stats">
+                                            <h4>114</h4>
+                                            <p>
+                                                Following
+                                            </p>
+                                        </div>
+                                        <div class="stats">
+                                            <h4>35</h4>
+                                            <p>
+                                                Projects
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <i class="fa fa-mail-forward center"></i> Ynogguti@inatel.br
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="social-links text-center">
+
+
+                                    <a href="http://creative-tim.com" class="facebook"><i
+                                                class="fa fa-facebook fa-fw"></i></a>
+                                    <a href="http://creative-tim.com" class="google"><i
+                                                class="fa fa-google-plus fa-fw"></i></a>
+                                    <a href="http://creative-tim.com" class="twitter"><i
+                                                class="fa fa-twitter fa-fw"></i></a>
+                                </div>
+                            </div>
+                        </div> <!-- end back panel -->
+                    </div> <!-- end card -->
+                </div> <!-- end card-container -->
+            </div> <!-- end col sm 3 -->
+                   <!--         <div class="col-sm-1"></div> -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/rotating_card_thumb.jpg"/>
+                            </div>
+                            <div class="user">
+                                <img class="img-circle" src="images/mazzon.jpg"/>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Filipe Mazzon</h3>
+                                    <p class="profession">Web and Software Developer</p>
+                                    <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it
+                                                           anywhere, yeah, they love me everywhere"</p>
+                                </div>
+                                <div class="footer">
+                                    <i>hover here</i>
+                                </div>
+                            </div>
+                        </div> <!-- end front panel -->
+                        <div class="back">
+                            <div class="header">
+                                <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h4 class="text-center">Job Description</h4>
+                                    <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many
+                                                           others...</p>
+
+                                    <div class="stats-container">
+                                        <div class="stats">
+                                            <h4>235</h4>
+                                            <p>
+                                                Followers
+                                            </p>
+                                        </div>
+                                        <div class="stats">
+                                            <h4>114</h4>
+                                            <p>
+                                                Following
+                                            </p>
+                                        </div>
+                                        <div class="stats">
+                                            <h4>35</h4>
+                                            <p>
+                                                Projects
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="social-links text-center">
+                                    <a href="http://creative-tim.com" class="facebook"><i
+                                                class="fa fa-facebook fa-fw"></i></a>
+                                    <a href="http://creative-tim.com" class="google"><i
+                                                class="fa fa-google-plus fa-fw"></i></a>
+                                    <a href="http://creative-tim.com" class="twitter"><i
+                                                class="fa fa-twitter fa-fw"></i></a>
+                                </div>
+                            </div>
+                        </div> <!-- end back panel -->
+                    </div> <!-- end card -->
+                </div> <!-- end card-container -->
+            </div> <!-- end col sm 3 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/rotating_card_thumb.jpg"/>
+                            </div>
+                            <div class="user">
+                                <img class="img-circle" src="images/matheusTenorio.jpg"/>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Matheus Tenorio</h3>
+                                    <p class="profession">Turista</p>
+                                    <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it
+                                                           anywhere, yeah, they love me everywhere"</p>
+                                </div>
+                                <div class="footer">
+                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+                                </div>
+                            </div>
+                        </div> <!-- end front panel -->
+                        <div class="back">
+                            <div class="header">
+                                <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h4 class="text-center">Job Description</h4>
+                                    <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many
+                                                           others...</p>
+
+                                    <div class="stats-container">
+                                        <div class="stats">
+                                            <h4>235</h4>
+                                            <p>
+                                                Followers
+                                            </p>
+                                        </div>
+                                        <div class="stats">
+                                            <h4>114</h4>
+                                            <p>
+                                                Following
+                                            </p>
+                                        </div>
+                                        <div class="stats">
+                                            <h4>35</h4>
+                                            <p>
+                                                Projects
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="social-links text-center">
+                                    <a href="http://creative-tim.com" class="facebook"><i
+                                                class="fa fa-facebook fa-fw"></i></a>
+                                    <a href="http://creative-tim.com" class="google"><i
+                                                class="fa fa-google-plus fa-fw"></i></a>
+                                    <a href="http://creative-tim.com" class="twitter"><i
+                                                class="fa fa-twitter fa-fw"></i></a>
+                                </div>
+                            </div>
+                        </div> <!-- end back panel -->
+                    </div> <!-- end card -->
+                </div> <!-- end card-container -->
+            </div> <!-- end col sm 3 -->
+        </div> <!-- end col-sm-10 -->
+    </div> <!-- end row -->
+    <div class="space-200"></div>
+</div>
+
+
+<!-- insert scripts-->
+<script src="js/jquery-2.2.1.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/home.js"></script>
+
+</body>
+</html>

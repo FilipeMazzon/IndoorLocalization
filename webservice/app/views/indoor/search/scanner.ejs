@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8"/>
+    <title>Iot-Lab</title>
+    <!-- JQuery -->
+    <script src="js/jquery-2.2.1.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/home.js"></script>
+    <!-- bootstrap - link cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- carregando icones -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <!-- incluindo css -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/box_register.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/walmart.ico"/>
+</head>
+<body>
+<nav class="pushpin-demo-nav" data-target="blue">
+    <div class="nav-wrapper light-blue">
+        <button href="#" data-activates="slide-out" class="button-collapse waves-effect waves-light btn-large blue"><i
+                    class="material-icons">menu</i></button>
+    </div>
+</nav>
+
+<!-- SideNav-->
+<ul id="slide-out" class="side-nav">
+    <li>
+        <div class="user-view">
+            <div class="background">
+                <img src="images/background.jpg">
+            </div>
+            <a href="#!user"><img class="circle" src="images/perfil.jpg"></a>
+            <a href="#!name"><span class="white-text name">Carlos Ynoguti</span></a>
+            <a href="#!email"><span class="white-text email">ynoguti@inatel.br</span></a>
+        </div>
+    </li>
+    <li><a href="/">Main Home<i class="material-icons">home</i></a></li>
+    <li><a href="/indoor_home">Home<i class="material-icons">home</i></a></li>
+    <li><a href="/indoor_team">Team<i class="material-icons">group</i></a></li>
+    <li class="">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a class="collapsible-header">cadastro<i class="material-icons">add</i></a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="/indoor_cadastro_beacon">beacon</a></li>
+                        <li><a href="/indoor_cadastro_scanner">scanner</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+    <ul class="collapsible collapsible-accordion">
+        <li>
+            <a class="collapsible-header">Pesquisar<i class="material-icons">search</i></a>
+            <div class="collapsible-body">
+                <ul>
+                    <li><a href="/indoor_search_builden">Predios</a></li>
+                    <li><a href="/indoor_search_person">Pessoas</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <li>
+        <div class="divider"></div>
+    </li>
+
+    <li><a href="#!">Configurações<i class="material-icons">build</i></a></li>
+</ul>
+<div class="container" id="formulario">
+    <form action="indoor_procurar_scanner" method="post">
+        <h5>Procurando Scanner</h5>
+        <div class="txt">
+            <select class="form-control" name="scanner" id="scroll1">
+                <option value=""> None</option>
+                <option value="predio2_1"> 2° Build- first floor</option>
+                <option value="predio2_2"> 2° Build - Second Floor</option>
+            </select> <br/>
+        </div>
+        <button class="waves-effect waves-yellow btn-large" id="buttonSave">Procurar</button>
+    </form>
+</div>
+
+</body>
+</html>

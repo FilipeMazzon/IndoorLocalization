@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>Iot-Lab</title>
+    <!-- JQuery -->
+
+    <!-- bootstrap - link cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- carregando icones -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <!-- incluindo css -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/box_register.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/walmart.ico"/>
+</head>
+<body>
+<nav class="pushpin-demo-nav" data-target="blue">
+    <div class="nav-wrapper light-blue">
+        <button href="#" data-activates="slide-out" class="button-collapse waves-effect waves-light btn-large blue"><i
+                    class="material-icons">menu</i></button>
+    </div>
+</nav>
+
+<!-- SideNav Indoor-->
+<ul id="slide-out" class="side-nav">
+</ul>
+<!-- End SideNav Indoor-->
+
+
+<div class="container" id="formulario">
+    <h5>Cadastrando Beacon</h5>
+    <div class="txt">
+        <div class="input-group">
+            <input placeholder="Id:" class="form-control" name="id" id="id" type="text"/>
+        </div>
+        <label id="lblScanner"></label><br/>
+        <div class="input-group">
+            <input placeholder="Addr:" class="form-control" name="addr" id="addr" type="text"/>
+        </div>
+        <label id="lblAddr"></label><br/>
+    </div>
+    <button class="waves-effect waves-yellow btn-large" id="buttonSave">Salvar</button>
+
+    <div id="imagens" height="550px" width="1050px"></div>
+
+</div>
+<script src="js/jquery-2.2.1.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/sidebarIndoor.js"></script>
+<script src="js/parallax.js"></script>
+
+</body>
+</html>
